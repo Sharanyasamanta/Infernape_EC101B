@@ -28,7 +28,20 @@ header {
     background-color:rgb(197, 115, 38);
 
 }
-
+.header ul
+{
+    display:flex;
+    align-items:center;
+}
+.header ul li:hover
+{
+    color:rgb(245, 253, 8)
+}
+.nav ul li{
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
 
 
 nav ul {
