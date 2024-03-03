@@ -25,13 +25,13 @@ header {
     align-items: center;
     height: 60px;
     padding:0 7vw;
-    background-color:rgb(197, 115, 38);
+    background-color:rgb(185, 124, 33);
 
 }
 .header ul
 {
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 }
 .header ul li:hover
 {
