@@ -1,23 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('bg.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    background-image: none;
     background-position: center;
     background-size: cover;
-    overflow: none;
     
-    width: auto;
+    box-sizing: border-box;
+    
     margin: 0;
-    padding: 0;
+    padding: 0 ;
 }
-
-header {
-    background: transparent;
-    color: #fff;
-    padding: 10px;
-}
-
 #logo{
     height: 70px;
     width: 70px;
@@ -25,6 +18,18 @@ header {
     padding: 10px;
     margin-left: 20px;
 }
+
+header {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding:0 7vw;
+    background-color:rgb(197, 115, 38);
+
+}
+
+
 
 nav ul {
     list-style-type: none;
