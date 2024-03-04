@@ -1,0 +1,12 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    background:black;
+    color: var(--text-colour);
+    background-position: center;
+    background-size: cover;
+    
+    box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0 ;
+}
